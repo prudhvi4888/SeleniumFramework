@@ -39,7 +39,7 @@ public class ErrorValidationTest extends BaseTest {
 	@Test
 	public void productErrorValidation() throws InterruptedException {
 		
-		String name="";
+		String name="test";
 		String itemName = "ZARA COAT 3";
 		String usename = "prudhvi.raj@gmail.com";
 		String password = "Nani4321!@";
