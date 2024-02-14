@@ -58,4 +58,8 @@ public class ErrorValidationTest extends BaseTest {
 		
 		
 	}
+	@Test
+	public void sampleTest() {
+		System.out.println("This is sample test");
+	}
 }
