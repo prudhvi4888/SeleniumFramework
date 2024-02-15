@@ -51,7 +51,7 @@ public class StandAloneTest extends BaseTest {
 
 		CheckoutPage checkoutPage = productPage.Checkout();
 		OrderPage orderPage = checkoutPage.inputCounty(country);
-		//Due to window size place order button is not clickable during runtime
+		//Due to window size place order button is not visible during runtime
 		String Confirmation = orderPage.checkOrderConfirmation();
 		Assert.assertTrue(Confirmation.equalsIgnoreCase("Thankyou for the order."), "failed to place the order");
 
