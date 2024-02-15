@@ -48,7 +48,7 @@ public class StandAloneTest extends BaseTest {
 
 		Boolean result = productPage.checkItemAddedToCart(data.get("product"));
 		Assert.assertTrue(result);
-
+		//Scroll issue fixed
 		CheckoutPage checkoutPage = productPage.Checkout();
 		OrderPage orderPage = checkoutPage.inputCounty(country);
 	
